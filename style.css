@@ -1,0 +1,107 @@
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    body{
+        background: #7ce7e1;
+    }
+}
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px){
+    body{
+        background: #ffd280;
+    }
+}
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px){
+    body{
+        background: #9ddfbb;
+    }
+}
+/* tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body{
+        background: #ffb497;
+    }
+}
+/* tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px){
+    body{
+        background: #f0e68c;
+    }
+}
+/* tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px){
+    body{
+        background: #d6b3f4;
+    }
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px){
+    body{
+        background: #d8ff9d;
+    }
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px){
+    body{
+        background: #ffc0cb;
+    }
+}
+
+
+.container {
+	margin: 0 auto;
+    background: #ceceff;
+    box-sizing: border-box;
+}
+/* Mobile phones (portrait and landscape) ---------- */
+@media screen and (max-width: 767px){
+    .container {
+        width: 100%;
+        padding: 5px 10px;
+    }
+}
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .container {
+        width: 750px;
+        padding: 5px 10px;
+    }
+}
+/* Low resolution desktops and laptops ---------- */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 980px;
+        padding: 5px 15px;
+    }
+}
+/* High resolution desktops and laptops ---------- */
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 1200px;
+        padding: 5px 20px;
+    }
+}
+
+
+.column {
+    width: 48%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    background: #97ddff;
+    float: left;
+}
+.container2 .column:first-child{
+    margin-right: 4%;
+}
+@media screen and (max-width: 767px){
+    .column {
+        width: 100%;
+        padding: 5px 20px;
+        float: none;
+    }
+    .container2 .column:first-child{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
